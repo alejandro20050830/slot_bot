@@ -1,0 +1,4 @@
+mysql-connector==2.2.9
+PySocks==1.7.1
+python-telegram-bot==13.7
+
