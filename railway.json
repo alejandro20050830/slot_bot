@@ -1,7 +1,6 @@
-services = [
-  { name = "bot",
-    image = "python:3.9",
-    command = "python telebot.py",
-    port = 8000
+  "deploy": {
+    "startCommand": "python telebot.py",
+    "healthcheckPath": "/",
+    "healthcheckTimeout": 100,
+    "restartPolicyType": "never"
   }
-]
