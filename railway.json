@@ -1,6 +1,0 @@
-  "deploy"{
-    "startCommand": "python telebot.py",
-    "healthcheckPath": "/",
-    "healthcheckTimeout": 100,
-    "restartPolicyType": "never"
-  }
