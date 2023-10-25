@@ -1,0 +1,5 @@
+version: "3.1"
+services:
+  app:
+    name: telebot
+    command: python telebot.py
