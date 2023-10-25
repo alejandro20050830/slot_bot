@@ -1,4 +1,4 @@
-  "deploy": {
+  "deploy"{
     "startCommand": "python telebot.py",
     "healthcheckPath": "/",
     "healthcheckTimeout": 100,
